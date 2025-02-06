@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos-viaje</title>
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- <a href="servicios.html"> Ir a servicios </a> -->
+    <!-- <a href="servicios.html">
+        <img src="imagenes/Argentina.jpg" width="10%">
+    </a> -->
+    <!-- <a href="https://www.youtube.com/"> Ir a youtube </a> -->
+     <div style="display: flex; justify-content: center; gap: 10px;">
+        <a href="nosotros.html"> Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="index.html">Inicio</a>
+     </div>
+    <div align="center">
+        <h1 style="color: aquamarine;"> Contactos </h1>
+        <p>Contactanos, sera un placer atenderte </p>
+    
+        <!--imagen-->
+        <img width="40%" src="imagenes/Contacto.png" alt="Contactanos">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15863.691416823889!2d-75.55537658864164!3d6.2738743287135215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428faccc29649%3A0xfb2cee2ea00ecba8!2sHotel%20Roma!5e0!3m2!1ses!2sco!4v1738081065535!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+     <div>
+        <form style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+            <label>escriba su nombre</label>
+            <input name="nombrecliente" type="text"><br>
+            <label>celular o telefono</label>
+            <input name="telefono" type="tel"><br>
+            <label>edad</label>
+            <input type="number" min="18" max="50"><br>
+            <label>escriba su correo</label>
+            <input name="Correo" type="Email"><br>
+            <label>Fecha de nacimiento</label>
+            <input type="date" min="1950-01-01" max="2006-12-31"><br>
+            <label>Envia una foto</label>
+            <input type="file" accept=".jpg, .png, .gif" max="3MB"><br>
+            <label>Genero</label>
+            <input type="radio" name="Genero" value="Hombre">Hombre
+            <input type="radio" name="Genero" value="Mujer">Mujer
+            <input type="radio" name="Genero" value="Otro">Otro <br>
+            <label>Tipo de plan: </label>
+            <input type="checkbox" name="plan" value="pareja">Plan pareja
+            <input type="checkbox" name="plan" value="familiar">plan familiar
+            <input type="checkbox" name="plan" value="amigos">plan amigos
+            <input type="checkbox" name="plan" value="otro">otro <br>
+            <label>Selecciona una opcion de contacto</label>
+            <select name="contacto">
+                <option value="Paloma">paloma mensajera</option>
+                <option value="Humo">señales de humo</option>
+                <option value="Rappi">Rappi</option>
+                <option value="Otro">Otro</option>
+            </select><br>
+            <label>Mensaje: </label>
+            <textarea name="Mensaje"></textarea><br>
+            
+            
+            <button type="submit">Enviar Datos</button>
+            <button type="reset">Borrar Datos</button>
+
+        </form>
+     </div>
+</body>
+</html>
